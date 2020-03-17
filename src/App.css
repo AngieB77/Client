@@ -1,0 +1,71 @@
+.App {
+  text-align: right;
+}
+
+.jumbotron {
+  background: url("./assets/Website\ Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  /* height: 1000px; */
+  height: 100vh;
+  width: 100vw; 
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Parisienne', cursive;
+  font-size: 20px;
+  color: rgb(4, 2, 26);
+  }
+
+ 
+
+.app {
+  background-color: rgb(59, 9, 29);
+  min-height: 00vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: navy;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main {
+  background-color: white;
+  color: navy;
+  height: 100%;
+  min-height: 100%;
+}
+#signup {
+  margin-top: 200px;
+  text-align: center;
+}
+.mainDiv {
+  margin: 0;
+  width: 100vw;
+  /* padding: 5px; */
+}
+
+ul {
+  list-style: none;
+
+
+}
+#Logout {
+  background-color: #53565a;
+  color: white;
+}
+#header {
+  margin-top: 0.5em!important;
+  text-align: center;
+  background-color: #53565a;
+  color: white;
+}
+
+.header {
+  margin-top: 0.8em!important;
+}
