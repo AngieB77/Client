@@ -84,8 +84,24 @@ const Auth = props => {
     <div>
       <div className="Form">
         <div className="Container">
-          <div className="Col">
-            <div className="Row">
+        <div className="Row">
+            <div className="Col">
+              <div className="headline">
+                <h1>Welcome to Rescue!</h1>
+                <p>
+                  Please sign in to see how you can help or need to request
+                  help!
+                </p>
+                <ul>
+                  <li>Looking for a pet?</li>
+                  <li>Need transport help?</li>
+                  <li>Need a rescue to help?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="Row">
+            <div className="Col">
               <form
                 onSubmit={e => {
                   login ? handleSubmit(e) : handleSignup(e);
