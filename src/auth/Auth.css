@@ -1,10 +1,10 @@
 #root {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /* background-image: url("../assets/background(1)"); */
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-image:url('../assets/Website\ Background.jpg');
   background-size: 100%;
   background-position: center center;
   font-family: sans-serif;

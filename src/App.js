@@ -28,6 +28,7 @@ const App = () => {
     localStorage.clear();
     setSessionToken("");
   };
+  
   let pets = "";
   let updateUser = "";
 
